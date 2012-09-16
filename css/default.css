@@ -1,0 +1,64 @@
+﻿body {
+    background-color: #0094f0;
+    font-family: 'Segoe UI', Arial, Sans-Serif;
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+    text-align:left;
+}
+
+h2 {
+    font-size: 44px;
+    position: relative;
+}
+
+#statusMessage {
+    margin-top: 40px;
+}
+#Tulum {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    opacity: .3;
+    height: 100%;
+    width: 70%;
+}
+
+#postcardCanvas {
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+
+#addSombrero {
+    background-color: #f00;
+    height:0;
+    border:0px;
+    padding:0px;
+}
+
+#addMustache {
+    background-color:#ffd800;
+    color: #000;
+}
+
+#newPic {
+    background-color: #4800ff;
+}
+
+.addLink {
+    color: #FFF;
+    font-size: 18px;
+    padding: 20px;
+    position: relative;
+    left: 0px;
+    width: 120px;
+    text-align: center;
+    border: 2px solid transparent;
+    float:left;
+}
+
+    .addLink:active, .addLink:hover {
+        cursor: pointer;
+        border: 2px solid #777;
+      
+    }

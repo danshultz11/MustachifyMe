@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Mustachify Me</title>
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0,target-densityDpi=device-dpi" />
+    <link href="css/default.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/default.js"></script>
+    <script type="text/javascript" src="js/cordova-2.0.0.js"></script>
+    <script type="text/javascript" src="js/photoSaver.js"></script>
+</head>
+<body>
+    <!--<div id="Tulum">
+        <img border="0" style="height: 100%;width:100%" src="images/Tulum.png" />
+    </div>-->
+    <canvas id="postcardCanvas" width="480" height="360"></canvas><br />
+    <div id="addSombrero" class="addLink"></div>
+    <div id="addMustache" class="addLink">
+        Mustachify</div>
+    <div id="newPic" class="addLink">
+        New Pic</div><br style="clear:both" />
+    <div id="statusMessage">
+        No message set</div>
+</body>
+<script type="text/javascript">
+    document.onload = init();
+</script>
+</html>
